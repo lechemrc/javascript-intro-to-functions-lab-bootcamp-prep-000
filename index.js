@@ -19,6 +19,7 @@ function sayHiToGrandma(string) {
   var lowercase = "hello!"
   var uppercase = "HELLO!"
   var mixedcase = "I love you, Grandma."
+<<<<<<< HEAD
   if (string.toLowerCase() === string) {
   return "I can\'t hear you!"
   }
@@ -28,6 +29,52 @@ function sayHiToGrandma(string) {
   }
   
 
+=======
+  if (string.toLowerCase() === lowercase) {
+  return "I can\'t hear you!"
+  }
+  
+  else if (string.toUpperCase() === uppercase) {
+  return "YES INDEED!"
+  }
+  
+  else (string === mixedcase); {
+  return "I love you, too."
+  }
+}
+
+function sayHiToGrandma(string) {
+  
+  var lowercase = "hello!"
+  var uppercase = "HELLO!"
+  var mixedcase = "I love you, Grandma."
+  if (string.toLowerCase() === lowercase) {
+  return "I can\'t hear you!"
+  }
+  
+  else if (string.toUpperCase() === uppercase) {
+  return "YES INDEED!"
+  }
+  
+  else (string === mixedcase); {
+  return "I love you, too."
+  }
+}
+
+function sayHiToGrandma(string) {
+  
+  var lowercase = "hello!"
+  var uppercase = "HELLO!"
+  var mixedcase = "I love you, Grandma."
+  if (string.toLowerCase() === lowercase) {
+  return "I can\'t hear you!"
+  }
+  
+  else if (string.toUpperCase() === uppercase) {
+  return "YES INDEED!"
+  }
+  
+>>>>>>> 0cffd56efe1b9d7d675786730d1d29ab1c5bb63e
   else (string === mixedcase); {
   return "I love you, too."
   }
